@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: rgb(249,101,160);
+}
+
+.one  {
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 610px;
+  height: 380px;
+  background-color: rgb(167,195,206);
+}
+
+.oneone {
+  font-family: 'BMJUA';
+  color: rgb(234, 94, 150);
+  position: absolute;
+  padding: 10px;
+  left: 50%; 
+  top: 60%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 570px;
+  height: 260px;
+  background-color: rgb(255, 237, 235);
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  background-clip: padding-box;
+  background: rgb(167,195,206);
+  border: 3px solid rgb(249,101,160);
+  border-radius: 12px 12px 12px 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(249,101,160);
+  border-radius: 10px;
+}
+
+.two {
+  position: absolute;
+  transform: translate(-380px, -60px);
+  top: auto;
+  left: 400px;
+  top: 0;
+}
+
+.three {
+  position: absolute;
+  transform: translate(270px, 10px);
+  width: 80px;
+  height: 80px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(167,195,206);
+}
+
+.four>.fourone:hover {
+  background-color: rgb(243,138,180);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourone {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(350px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(167,195,206);
+  background-color: rgb(249,101,160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four>.fourtwo:hover {
+  background-color: rgb(243,138,180);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourtwo {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(400px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(167,195,206);
+  background-color: rgb(249,101,160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four>.fourthree:hover {
+  background-color: rgb(243,138,180);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourthree {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(450px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(167,195,206);
+  background-color: rgb(249,101,160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four>.fourfour:hover {
+  background-color: rgb(243,138,180);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourfour {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(500px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(167,195,206);
+  background-color: rgb(249,101,160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.love {
+  overflow: hidden;
+  padding-top: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.love>img {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}

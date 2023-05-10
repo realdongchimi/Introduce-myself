@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: rgb(172,126,140);
+}
+
+.one  {
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 610px;
+  height: 380px;
+  background-color: rgb(171,189,179);
+}
+
+.oneone {
+  font-family: 'BMJUA';
+  position: absolute;
+  padding: 10px;
+  left: 50%; 
+  top: 60%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 570px;
+  height: 260px;
+  background-color: rgb(255, 237, 235);
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  background-clip: padding-box;
+  background: rgb(171,189,179);
+  border: 3px solid rgb(172,126,140);
+  border-radius: 12px 12px 12px 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(172,126,140);
+  border-radius: 10px;
+}
+
+.two {
+  position: absolute;
+  transform: translate(-380px, -60px);
+  top: auto;
+  left: 400px;
+  top: 0;
+}
+
+.three {
+  position: absolute;
+  transform: translate(270px, 10px);
+  width: 80px;
+  height: 80px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(167,195,206);
+}
+
+.four>.fourone:hover {
+  background-color: rgb(191,160,156);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourone {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(350px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(171,189,179);
+  background-color: rgb(172,126,140);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four>.fourtwo:hover {
+  background-color: rgb(191,160,156);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourtwo {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(400px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(171,189,179);
+  background-color: rgb(172,126,140);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four>.fourthree:hover {
+  background-color: rgb(191,160,156);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourthree {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(450px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(171,189,179);
+  background-color: rgb(172,126,140);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four>.fourfour:hover {
+  background-color: rgb(191,160,156);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.four>.fourfour {
+  transition: all 0.3s;
+  font-family: 'BMJUA';
+  position: absolute;
+  transform: translate(500px, 12px);
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  border: 3px solid rgb(171,189,179);
+  background-color: rgb(172,126,140);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px 10px 10px;
+}
+
+.im1:hover {
+  opacity: 0.5;
+}
+
+.im1>img {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.im1>span {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(171,189,179);
+  top: 25px;
+  left: 50px;
+}
+
+.im2:hover {
+  opacity: 0.5;
+}
+
+.im2>img {
+  position: absolute;
+  top: 15px;
+  left: 310px;
+}
+
+.im2>span {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(171,189,179);
+  top: 25px;
+  left: 450px;
+}
+
+.im3:hover {
+  opacity: 0.5;
+}
+
+.im3>img {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+}
+
+.im3>span {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(171,189,179);
+  top: 255px;
+  left: 50px;
+}
+
+.im4:hover {
+  opacity: 0.5;
+}
+
+.im4>img {
+  position: absolute;
+  top: 250px;
+  left: 310px;
+}
+
+.im4>span {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(171,189,179);
+  top: 255px;
+  left: 420px;
+}
+
+.space {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  top: 460px;
+  left: 420px
+  z-index: 3;
+}

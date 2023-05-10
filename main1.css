@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+head,body {
+  background-color: rgb(106,101,128);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.middle {
+  font-family: 'BMJUA';
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  color: rgb(106,101,128);
+  width: 350px;
+  z-index: 2;
+  transform: translate(30px, 15px);;
+}
+
+.now {
+  position: absolute;
+  margin-left: -80px;
+  color: rgb(172,145,197);
+  left: 75px;
+  font-size: 25px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255,237,235);
+}
+
+.one:hover {
+  background-color: rgb(226,194,227);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.one  {
+  font-family: 'BMJUA';
+  background-color: rgb(192, 159, 218);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-770px, -35px);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.two:hover {
+  background-color: rgb(226,194,227);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.two  {
+  font-family: 'BMJUA';
+  background-color: rgb(192, 159, 218);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-770px, 50px);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.three:hover {
+  background-color: rgb(226,194,227);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.three  {
+  font-family: 'BMJUA';
+  background-color: rgb(192, 159, 218);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-300px, -35px);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.four:hover {
+  background-color: rgb(226,194,227);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
+
+.four  {
+  font-family: 'BMJUA';
+  background-color: rgb(192, 159, 218);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-300px, 50px);
+  width: 70px;
+  height: 50px;
+  border-radius: 250px;
+}
